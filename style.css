@@ -1,0 +1,41 @@
+.list-album{
+	display: flex;
+	overflow-x : scroll; 
+}
+.album{
+	background-color: #eee;
+	height: 200px;
+	width: 200px;
+	background-image: url("https://loremflickr.com/128/128" );
+	background-size: cover;
+	margin-left: 10px; 
+}
+.backgro{
+	height: 100%;
+	width: 100%;
+	background: rgba(0,0,0,0.3);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: row wrap;
+	color: #fff;
+	font-size: 60px;
+	display: none;
+
+}
+.backgro .playButton {
+	font-size: 80px;
+}
+.backgro .moreButton{
+	font-size: 40px;
+}
+.backgro .loveButton{
+	font-size: 40px;
+}
+
+.album:hover .backgro{
+	display: flex; 
+}
+.backgro .playButton:hover{
+	cursor: pointer;
+}
