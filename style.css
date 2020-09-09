@@ -39,3 +39,69 @@
 .backgro .playButton:hover{
 	cursor: pointer;
 }
+
+
+.hotSong{
+	font-family: Arial, san-serif;
+	height: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: #2d2541;
+}
+
+.hotSong .photoSong {
+	height: 50px;
+	width: 50px;
+	background-image: url("https://loremflickr.com/50/50" );
+}
+.hotSong .rank {
+	flex-basis: 30px;
+	padding: 0 5px;
+	box-sizing: border-box;	
+	font-size: 20px;
+	color: #0000ff;
+}
+.hotSong .songInfo {
+	flex-basis: 200px;
+	flex-grow: 1;
+	margin: 0 5px;
+	padding: 0 5px;
+	box-sizing: border-box;
+}
+
+.hotSong .nameSong {
+	font-size: 16px;
+	text-transform: capitalize;
+	font-weight: bold;
+	color: #fff;
+}
+.hotSong .nameSinger{
+	font-size: 13px;
+	color: #bbb;
+}
+.hotSong .vote {
+	flex: 50px;
+	color: #1000ff;
+}
+
+.hotSong .iconPlay {
+	visibility: hidden;
+	background: #555;
+	height: 100%;
+	width: 100%;
+	flex-basis: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+
+.hotSong:hover {
+	background: #aaa;
+	cursor: pointer;
+}
+.hotSong:hover .iconPlay{
+	visibility: visible;
+}
