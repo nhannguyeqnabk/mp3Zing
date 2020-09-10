@@ -1,0 +1,82 @@
+.contain{
+	display: flex;
+	flex-direction: column;
+}
+
+.search{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.search .logo a {
+	text-decoration: none;
+	font-size: 30px;
+}
+.search .search-box {
+	flex-grow: 1;
+	margin: 0 10px;
+}
+.search .icon i {
+	margin: 0 10px;
+	background-color: #eee;
+	color: #000;
+}
+.search .avtar {
+	width: 50px;
+	height: 50px;
+	background-image: url("https://loremflickr.com/320/240");
+	background-size: cover;
+	background-position: center;
+	border-radius: 50px;
+	margin: 0 10px;
+}
+.search .search-box{
+	display: flex;
+	border:1px solid #555;
+	border-radius: 15px;
+}
+
+.search .search-box input {
+	width: 100%;
+	font-size: 20px;
+	border:none;
+}
+.list-header ul {
+	list-style-type: none;
+	font-family: Arial, sans-serif;
+
+}
+.list-header .list-1 .item-1 {
+	float: left;
+	padding: 5px 10px;
+	background-color: #eee;
+	margin-right: 10px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.list-header .item-1:hover {
+	color: purple;
+	background-color: #fff;
+}
+.list-header .list-2 .item-2{
+	padding: 0 5px;
+	margin: 0 5px;
+}
+
+.list-header .list-2{
+	display: flex;
+	position: absolute;
+	top:30px;
+	left: -30px;
+	display: none;
+}
+
+.list-header .zingchart:hover .list-2{
+	display: flex;
+	z-index: 10;
+	background-color: #fff;
+	width: 400px
+	color:#000; 
+}
