@@ -1,6 +1,7 @@
 .contain{
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
 .search{
@@ -60,6 +61,10 @@
 	color: purple;
 	background-color: #fff;
 }
+.list-header .item-1:hover .item-2 {
+	color: #000;
+	background-color: #ddd;
+}
 .list-header .list-2 .item-2{
 	padding: 0 5px;
 	margin: 0 5px;
@@ -70,13 +75,24 @@
 	position: absolute;
 	top:30px;
 	left: -30px;
+	width: 300px;
+	background-color: #ddd;
 	display: none;
 }
-
-.list-header .zingchart:hover .list-2{
+.list-header .list-3 {
 	display: flex;
-	z-index: 10;
-	background-color: #fff;
-	width: 400px
-	color:#000; 
+	flex-direction: column;
+}
+
+.list-header .zingchart:hover ul {
+	display: flex;
+}
+.list-header .us-uk:hover ul {
+	display: flex;
+}
+.list-header .new-menu:hover ul {
+	display: flex;
+}
+.list-header .top100:hover ul {
+	display: flex;
 }
